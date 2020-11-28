@@ -3,7 +3,7 @@
 !!! Important
     This documentation is on the initial phase of development, breaking changes are likely to be introduced until the v1.0 release.
 
-Appframe is an open souurce python library that reduces the code and complexity of developing a command line applications by handling most of the logic that is common to a typical application lifecycle.
+Appframe is an open source python library that reduces the code and complexity of developing  command line applications. To do that it provides
 
 ##  Features
 
@@ -16,7 +16,7 @@ Appframe leverages the follwing greate libraries:
 
 ## Installation
 
-Webplane is avaiable from the official Python Package Index (PIP), you can install it from the terminal:
+Appframe is avaiable from the official Python Package Index (PIP), you can install it from the terminal:
 ```bash
 pip install appframe
 ```

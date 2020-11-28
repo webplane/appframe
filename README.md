@@ -7,9 +7,10 @@ Appframe is an open souurce python library that reduces the code and complexity 
 
 ##  Features
 
-- [x] Automatic composition of the CLI syntax from plain python modulues
+- [x] 2 lines of code on your `main` file
+- [x] Composition of the CLI syntax from modules in the ***commands/*** directory
 
-Appframe leverages the follwing greate libraries:
+Appframe leverages the follwing great libraries:
 
 - https://pypi.org/project/cleo/
 - https://pypi.org/project/simple-plugin-loader/
