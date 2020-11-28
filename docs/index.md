@@ -46,7 +46,7 @@ class CreateCommand(Command):
         print(f"Hello {person}")
 ```
 
-Now test it with:
+Test the app:
 ```sh
 python test.py greet Joe
 ```
