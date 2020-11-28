@@ -22,16 +22,17 @@ pip install appframe
 ```
 
 ##  Hello World
-_main.py_
+main.py
 ```python
 import appframe
 
-appframe.main(__name__, __file__)
+
+appframe.main(__name__, __file__, "test-app", "0.1")
 ```
 
 _commands/hello.py_
 ```python
-from appframe import Command
+from appframe import Command, verbose
 
 
 class CreateCommand(Command):
@@ -43,6 +44,12 @@ class CreateCommand(Command):
     """
 
     def handle(self):
-        person = self.argument,get("person") or "Peter"
+        person = self.argument("person") or "Peter"
+        verbose(1, "Greeting person")
         print(f"Hello {person}")
+```
+
+Now test it with:
+```sh
+python test.py greet Joe
 ```
