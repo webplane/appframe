@@ -18,7 +18,8 @@ Appframe leverages the follwing great libraries:
 ## Installation
 
 Webplane is avaiable from the official Python Package Index (PIP), you can install it from the terminal:
-```bash
+
+```sh
 pip install appframe
 ```
 
