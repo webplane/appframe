@@ -1,6 +1,6 @@
 # Introduction and Installation
 
-Appframe is an open source python library that reduces the code and complexity of developing  command line applications. It handles most of the low level using a "pluggable" modules architecture.
+Appframe is an open source python library that reduces the code and complexity of developing command line applications. It handles most of the low level logic while enforcing a modular architecture.
 
 ##  Features
 
