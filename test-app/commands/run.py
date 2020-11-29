@@ -1,5 +1,4 @@
-from cleo import Command
-from appframe import Application
+from appframe import Application, Command
 
 
 class RunCommand(Command):
@@ -12,5 +11,5 @@ class RunCommand(Command):
 
     def handle(self):
         project_directory = self.argument("project-directory")
-        app = Application(".", project_directory)
+        app = Application(project_directory)
         app.run()
