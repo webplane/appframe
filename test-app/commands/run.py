@@ -6,7 +6,7 @@ class RunCommand(Command):
     Ruan an application
 
     run
-        {project-directory? : directory of the project to run}
+        {project-directory : directory of the project to run}
     """
 
     def handle(self):
